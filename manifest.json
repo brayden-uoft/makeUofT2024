@@ -4,7 +4,7 @@
   "description": "Base Level Extension",
   "version": "1.0",
   "background": {
-    "service_worker": "src/service-worker.js",
+    "scripts": ["src/service-worker.js"],
     "type": "module"
   },
   "action": {
@@ -16,7 +16,6 @@
     "activeTab",
     "scripting",
     "webNavigation",
-    "sidePanel",
     "tabs"
   ],
   "web_accessible_resources": [
